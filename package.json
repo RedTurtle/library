@@ -1,7 +1,6 @@
 {
   "name": "library",
   "version": "0.1.0",
-  "private": true,
   "dependencies": {
     "match-sorter": "^1.8.1",
     "react": "^15.6.1",
@@ -12,6 +11,36 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "prettier:test": "prettier --single-quote --trailing-comma es5 --list-different \"src/**/*.js\""
+  },
+  "devDependencies": {
+    "enzyme": "^2.9.1",
+    "enzyme-to-json": "^1.5.1",
+    "flow-bin": "^0.53.1",
+    "prettier": "^1.6.1",
+    "react-test-renderer": "^15.6.1",
+    "stylelint": "^8.0.0",
+    "stylelint-config-recommended": "^1.0.0"
+  },
+  "stylelint": {
+    "extends": "stylelint-config-recommended",
+    "rules": {
+      "at-rule-no-unknown": [
+        true,
+        {
+          "ignoreAtRules": [
+            "extends",
+            "include",
+            "mixin"
+          ]
+        }
+      ]
+    }
+  },
+  "jest": {
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ]
   }
 }

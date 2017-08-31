@@ -1,0 +1,28 @@
+.results-list {
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.result-item {
+    margin-bottom: 4rem;
+}
+
+.results-list h3 {
+    padding-bottom: 0.6rem;
+    border-bottom: 1px solid #bbb;
+}
+
+.results-list a {
+    color: #d40e0e;
+}
+
+.results-list a:hover,
+.results-list a:active {
+    color: #980a0a;
+}
+
+@media (min-width: 900px) {
+    .results-list {
+        width: 900px;
+    }
+}

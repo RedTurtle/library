@@ -1,0 +1,15 @@
+.App-logo {
+    height: 80px;
+}
+
+.App-header {
+    background-color: #222;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+.App-header h1 {
+    font-weight: 600;
+    font-family: 'Titillium Web', sans-serif;
+}

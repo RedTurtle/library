@@ -1,12 +1,8 @@
-// @flow
-export type DataItem = {
-  id: string,
-  name: string,
-  url: string,
-  keywords: ?Array<string>,
-};
+import React from 'react';
+import ResultsList from './index';
+import { shallow } from 'enzyme';
 
-const data: Array<DataItem> = [
+const results = [
   {
     id: 'collective.tiles.advancedstatic',
     name: 'collective.tiles.advancedstatic',
@@ -19,12 +15,8 @@ const data: Array<DataItem> = [
     url: 'https://github.com/collective/collective.tiles.collection',
     keywords: ['plone', 'plone5', 'collective', 'collection', 'tiles'],
   },
-  {
-    id: 'deployments.buildout.plone',
-    name: 'deployments.buildout.plone',
-    url: 'https://github.com/RedTurtle/deployments.buildout.plone',
-    keywords: ['plone', 'plone4', 'plone5', 'redturtle', 'rt', 'buildout'],
-  },
 ];
 
-export default data;
+it('matches previous snapshot', () => {
+  expect(shallow(<ResultsList results={results} />)).toMatchSnapshot();
+});

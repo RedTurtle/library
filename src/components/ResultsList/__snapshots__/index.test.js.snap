@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches previous snapshot 1`] = `
+<div
+  className="results-list"
+>
+  <div
+    className="result-item"
+  >
+    <h3>
+      collective.tiles.advancedstatic
+    </h3>
+    <p>
+      <a
+        href="https://github.com/collective/collective.tiles.advancedstatic"
+      >
+        https://github.com/collective/collective.tiles.advancedstatic
+      </a>
+    </p>
+    <p>
+      Keywords: 
+      plone, plone5, collective, static, tiles, advanced
+    </p>
+  </div>
+  <div
+    className="result-item"
+  >
+    <h3>
+      collective.tiles.collection
+    </h3>
+    <p>
+      <a
+        href="https://github.com/collective/collective.tiles.collection"
+      >
+        https://github.com/collective/collective.tiles.collection
+      </a>
+    </p>
+    <p>
+      Keywords: 
+      plone, plone5, collective, collection, tiles
+    </p>
+  </div>
+</div>
+`;
