@@ -1,6 +1,7 @@
 {
   "name": "library",
   "version": "0.1.0",
+  "license": "GPL-3.0+",
   "dependencies": {
     "match-sorter": "^1.8.1",
     "react": "^15.6.1",
