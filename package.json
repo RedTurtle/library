@@ -22,7 +22,8 @@
     "prettier": "^1.6.1",
     "react-test-renderer": "^15.6.1",
     "stylelint": "^8.0.0",
-    "stylelint-config-recommended": "^1.0.0"
+    "stylelint-config-recommended": "^1.0.0",
+    "flow": "flow"
   },
   "stylelint": {
     "extends": "stylelint-config-recommended",
