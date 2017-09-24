@@ -2,7 +2,7 @@
 import React from 'react';
 import './styles.css';
 import typeof data from '../../data';
-
+import Readme from '../Readme';
 type Props = { results: data };
 
 const ResultsList = ({ results }: Props) => (
@@ -15,6 +15,7 @@ const ResultsList = ({ results }: Props) => (
         </p>
         {item.keywords &&
         item.keywords.length && <p>Keywords: {item.keywords.join(', ')}</p>}
+        <Readme url={item.url} />
       </div>
     ))}
     {!results.length && <p>No results matched your criteria.</p>}
