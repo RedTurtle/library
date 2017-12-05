@@ -8,6 +8,38 @@ export type DataItem = {
 
 const data: Array<DataItem> = [
   {
+    id: 'eslint-config',
+    name: '@redturtle/eslint-config',
+    url: 'https://github.com/RedTurtle/eslint-config',
+    keywords: [
+      'javascript',
+      'eslint',
+      'es6',
+      'babel',
+      'flow',
+      'prettier',
+      'redturtle',
+      'config',
+    ],
+  },
+  {
+    id: 'collective.editablemenu',
+    name: 'collective.editablemenu',
+    url: 'https://github.com/RedTurtle/collective.editablemenu',
+    keywords: [
+      'plone',
+      'plone4',
+      'plone5',
+      'redturtle',
+      'collective',
+      'editablemenu',
+      'megamenu',
+      'collapsible',
+      'collapse',
+      'expand',
+    ],
+  },
+  {
     id: 'collective.lazysizes',
     name: 'collective.lazysizes',
     url: 'https://github.com/collective/collective.lazysizes',
@@ -122,6 +154,20 @@ const data: Array<DataItem> = [
       'tiles',
       'management',
       'mosaic',
+    ],
+  },
+  {
+    id: 'rer.subsites',
+    name: 'rer.subsites',
+    url: 'https://github.com/PloneGov-IT/rer.subsites',
+    keywords: [
+      'plone',
+      'plone5',
+      'redturtle',
+      'rt',
+      'rer',
+      'subsites',
+      'plonegov',
     ],
   },
 ];
