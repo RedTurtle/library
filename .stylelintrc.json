@@ -1,15 +1,11 @@
 {
-    "extends": "stylelint-config-recommended",
-    "rules": {
-        "at-rule-no-unknown": [
-            true,
-            {
-                "ignoreAtRules": [
-                    "extends",
-                    "include",
-                    "mixin"
-                ]
-            }
-        ]
-    }
+  "extends": "stylelint-config-recommended",
+  "rules": {
+    "at-rule-no-unknown": [
+      true,
+      {
+        "ignoreAtRules": ["extend", "include", "mixin"]
+      }
+    ]
+  }
 }

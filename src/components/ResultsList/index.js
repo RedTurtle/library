@@ -14,7 +14,7 @@ const ResultsList = ({ results }: Props) => (
           <a href={item.url}>{item.url}</a>
         </p>
         {item.keywords &&
-        item.keywords.length && <p>Keywords: {item.keywords.join(', ')}</p>}
+          item.keywords.length && <p>Keywords: {item.keywords.join(', ')}</p>}
       </div>
     ))}
     {!results.length && <p>No results matched your criteria.</p>}

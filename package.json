@@ -14,16 +14,19 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "prettier:test": "prettier --single-quote --trailing-comma es5 --list-different \"src/**/*.js\"",
+    "prettier:test": "prettier --list-different \"src/**/*.js\"",
     "flow": "flow",
     "deploy": "npm run build&&gh-pages -d build"
   },
   "devDependencies": {
     "enzyme": "^2.9.1",
     "enzyme-to-json": "^1.5.1",
+    "eslint-config-prettier": "^2.6.0",
+    "eslint-plugin-flowtype": "^2.39.1",
+    "eslint-plugin-prettier": "^2.3.1",
     "flow-bin": "^0.57.3",
     "gh-pages": "^1.0.0",
-    "prettier": "^1.6.1",
+    "prettier": "^1.7.4",
     "react-test-renderer": "^15.6.1",
     "stylelint": "^8.0.0",
     "stylelint-config-recommended": "^1.0.0"
